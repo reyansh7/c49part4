@@ -1,0 +1,40 @@
+    h1 {
+      color:(0,0,0)
+    }
+    .header{
+        background-color:(255,0,0);
+    display:flex;
+    justify-content:space-evenly
+    }
+    .games{
+        background-color: #1a3e4f;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly
+    }
+    .socialmedia{
+        background-color:#3a4f0e;
+        
+    }
+    a:link{
+        color:white
+    }
+    a:visited{
+        color : white
+    }
+    .item{
+        position : relative
+    }
+    .item p{
+        position : absolute;
+        top : 50%;
+        left:50%;
+        transform : translate(-50%,-50%);
+        opacity : 0;
+    }
+     .item:hover p{
+         opacity:1
+     }   
+     .item:hover img{
+         opacity : 0.33
+     }
